@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#form {
+  color: rgb(0, 0, 70);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  padding: 1rem;
+}
+
+input {
+  margin: 1rem;
+}
+
+div {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+
+}
+
+button {
+  background-color: white;
+  color: blue;
+  transition: 1s;
+
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+img {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: block;
+}
+
+h2 {
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+h3 {
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+  display: flex;
+  padding: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
