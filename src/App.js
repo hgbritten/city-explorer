@@ -10,19 +10,27 @@ class App extends React.Component {
     super(props);
     this.state = {
       searchQuery: '',
-      location: {}
+      location: {},
+      error: false,
     }
   }
   getLocation = async (e) => {
-    e.preventDefault();
-    const API = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_CITY_KEY}&q=${this.state.searchQuery}&format=json`;
-    const res = await axios.get(API);
+    try {
+      e.preventDefault();
 
-    const location = res.data[0];
+      const API = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_CITY_KEY}&q=${this.state.searchQuery}&format=json`;
 
-    this.setState({ location, });
+      const res = await axios.get(API);
+
+      const location = res.data[0];
+
+      this.setState({ location, error: false });
+    } catch (error) {
+      console.log('Houston we have an error');
+      { this.setState({ error: true }) }
+    }
+
   }
-
   render() {
     return (
       <>
@@ -32,7 +40,11 @@ class App extends React.Component {
             <input onChange={(e) => this.setState({ searchQuery: e.target.value })} placeholder="search for a city"></input>
             <button onClick={this.getLocation}>Explore!</button>
           </form>
-
+          {this.state.error &&
+            <div class="alert alert-primary" role="alert">
+              Please enter a valid city name!
+          </div>
+          }
           {this.state.location.place_id &&
             <h2>The city is: {this.state.location.display_name}</h2>
           }
@@ -44,6 +56,7 @@ class App extends React.Component {
     )
   }
 }
+
 
 
 export default App;
