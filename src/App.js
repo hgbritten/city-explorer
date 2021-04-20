@@ -27,7 +27,7 @@ class App extends React.Component {
       this.setState({ location, error: false });
     } catch (error) {
       console.log('Houston we have an error');
-      { this.setState({ error: true }) }
+      this.setState({ error: true });
     }
 
   }
