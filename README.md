@@ -29,6 +29,18 @@ We are using React, Axios, and VS Code to make this.
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 - Dion Johnson
 
+
+Name of feature: Asynchronous code, and APIs
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 1:30
+
+Finish time: 5:07
+
+Actual time needed to complete: 3:37
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
