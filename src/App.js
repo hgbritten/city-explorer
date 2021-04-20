@@ -15,8 +15,8 @@ class App extends React.Component {
     }
   }
   getLocation = async (e) => {
+    e.preventDefault();
     try {
-      e.preventDefault();
 
       const API = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_CITY_KEY}&q=${this.state.searchQuery}&format=json`;
 
@@ -29,7 +29,6 @@ class App extends React.Component {
       console.log('Houston we have an error');
       this.setState({ error: true });
     }
-
   }
   render() {
     return (
