@@ -29,7 +29,7 @@ We are using React, Axios, and VS Code to make this.
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 - Dion Johnson
 
-
+<!-- Notes on time --> 
 Name of feature: Asynchronous code, and APIs
 
 Estimate of time needed to complete: 2 hours
