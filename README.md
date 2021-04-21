@@ -3,6 +3,7 @@
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ![image](WRRC.PNG)
+![image](wrrc2.PNG)
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
 
@@ -28,6 +29,7 @@ We are using React, Axios, and VS Code to make this.
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 - Dion Johnson
+- AJ
 
 <!-- Notes on time --> 
 Name of feature: Asynchronous code, and APIs
@@ -35,6 +37,36 @@ Name of feature: Asynchronous code, and APIs
 Estimate of time needed to complete: 2 hours
 
 Start time: 1:30
+
+Finish time: 5:07
+
+Actual time needed to complete: 3:37
+
+Name of feature: Set up server repo
+
+Estimate of time needed to complete: 1 hours
+
+Start time: 1:37
+
+Finish time: 
+
+Actual time needed to complete: 
+
+Name of feature: Weather placeholder
+
+Estimate of time needed to complete: 1 hours
+
+Start time: 1:37
+
+Finish time: 5:07
+
+Actual time needed to complete: 3:37
+
+Name of feature: Errors revisted
+
+Estimate of time needed to complete: 1 hours
+
+Start time: 1:37
 
 Finish time: 5:07
 
