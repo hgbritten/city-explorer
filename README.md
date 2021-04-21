@@ -4,6 +4,7 @@
 
 ![image](WRRC.PNG)
 ![image](wrrc2.PNG)
+![image](WRRC3.PNG)
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
 
@@ -30,6 +31,7 @@ We are using React, Axios, and VS Code to make this.
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 - Dion Johnson
 - AJ
+- Rinat
 
 <!-- Notes on time --> 
 Name of feature: Asynchronous code, and APIs
@@ -67,6 +69,36 @@ Name of feature: Errors revisted
 Estimate of time needed to complete: 1 hours
 
 Start time: 1:37
+
+Finish time: 5:07
+
+Actual time needed to complete: 3:37
+
+Name of feature: Weather revisted
+
+Estimate of time needed to complete: 1 hours
+
+Start time: 1:11
+
+Finish time: 5:07
+
+Actual time needed to complete: 3:37
+
+Name of feature: Movies
+
+Estimate of time needed to complete: 1 hours
+
+Start time: 1:11
+
+Finish time: 5:07
+
+Actual time needed to complete: 3:37
+
+Name of feature: Publish
+
+Estimate of time needed to complete: .5 hours
+
+Start time: 1:11
 
 Finish time: 5:07
 
