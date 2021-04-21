@@ -80,9 +80,9 @@ Estimate of time needed to complete: 1 hours
 
 Start time: 1:11
 
-Finish time: 5:07
+Finish time: 4:57
 
-Actual time needed to complete: 3:37
+Actual time needed to complete: 3:46
 
 Name of feature: Movies
 
@@ -90,9 +90,9 @@ Estimate of time needed to complete: 1 hours
 
 Start time: 1:11
 
-Finish time: 5:07
+Finish time: 4:57
 
-Actual time needed to complete: 3:37
+Actual time needed to complete: 3:46
 
 Name of feature: Publish
 
@@ -100,9 +100,9 @@ Estimate of time needed to complete: .5 hours
 
 Start time: 1:11
 
-Finish time: 5:07
+Finish time: 4:57
 
-Actual time needed to complete: 3:37
+Actual time needed to complete: 3:46
 
 
 # Getting Started with Create React App
