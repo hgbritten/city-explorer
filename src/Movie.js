@@ -9,18 +9,19 @@ class Movie extends React.Component {
   render() {
 
     return (
-      this.props.movies.map((day, idx) => (
+      this.props.movies.map((movie, idx) => (
 
         <ListGroup.Item key={idx} as="li" active>
-          <h2>Title: {day.title}
+          <h2>Title: {movie.title}
           </h2>
           <p>
-            Rating: {day.popularity}
+            Rating: {movie.popularity}
           </p>
           <p>
-            Overview: {day.overview}
+            Overview: {movie.overview}
           </p>
-          {/* , Average Votes: {day.average_votes}, Total Votes: {day.total_votes}, Release Date: {day.released_on} */}
+          <img src={`https://image.tmdb.org/t/p/w500${movie.image}`} alt="img not found" />
+          {/* , Average Votes: {movie.average_votes}, Total Votes: {movie.total_votes}, Release Date: {movie.released_on} */}
         </ListGroup.Item>
 
       ))

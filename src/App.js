@@ -40,7 +40,8 @@ class App extends React.Component {
 
   getWeather = async () => {
     try {
-      const weatherAPI = `${process.env.REACT_APP_BACKEND_URL}/weather`
+      const baseUrl = `https://city-explorer-api-hb.herokuapp.com`
+      const weatherAPI = `${baseUrl}/weather`
       const query = {
         lon: this.state.location.lon,
         lat: this.state.location.lat
