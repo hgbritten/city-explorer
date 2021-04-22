@@ -113,9 +113,9 @@ Estimate of time needed to complete: .5 hours
 
 Start time: 3:00
 
-Finish time: 5:07
+Finish time: 3:55
 
-Actual time needed to complete: 3:37
+Actual time needed to complete: 0:55
 
 Name of feature: Movie nested
 
@@ -123,9 +123,9 @@ Estimate of time needed to complete: .5 hours
 
 Start time: 3:00
 
-Finish time: 5:07
+Finish time: 3:55
 
-Actual time needed to complete: 3:37
+Actual time needed to complete: 0:55
 
 
 # Getting Started with Create React App
