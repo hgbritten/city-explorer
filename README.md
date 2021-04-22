@@ -5,6 +5,7 @@
 ![image](WRRC.PNG)
 ![image](wrrc2.PNG)
 ![image](WRRC3.PNG)
+![image](wrrc4.PNG)
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
 
@@ -32,6 +33,8 @@ We are using React, Axios, and VS Code to make this.
 - Dion Johnson
 - AJ
 - Rinat
+- Dion again!
+- Skyler
 
 <!-- Notes on time --> 
 Name of feature: Asynchronous code, and APIs
@@ -103,6 +106,26 @@ Start time: 1:11
 Finish time: 5:07
 
 Actual time needed to complete: 3:37
+
+Name of feature: Weather nested
+
+Estimate of time needed to complete: .5 hours
+
+Start time: 3:00
+
+Finish time: 3:55
+
+Actual time needed to complete: 0:55
+
+Name of feature: Movie nested
+
+Estimate of time needed to complete: .5 hours
+
+Start time: 3:00
+
+Finish time: 3:55
+
+Actual time needed to complete: 0:55
 
 
 # Getting Started with Create React App
