@@ -10,21 +10,19 @@ class Movie extends React.Component {
 
     return (
       this.props.movies.map((day, idx) => (
-        <>
-          <ListGroup.Item key={idx} as="li" active>
-            <h2>Title: {day.title}
-            </h2>
-            <p>
-              Rating: {day.popularity}
-            </p>
-            <p>
-              Overview: {day.overview}
-            </p>
-            {/* , Average Votes: {day.average_votes}, Total Votes: {day.total_votes}, Release Date: {day.released_on} */}
-          </ListGroup.Item>
-          <br>
-          </br>
-        </>
+
+        <ListGroup.Item key={idx} as="li" active>
+          <h2>Title: {day.title}
+          </h2>
+          <p>
+            Rating: {day.popularity}
+          </p>
+          <p>
+            Overview: {day.overview}
+          </p>
+          {/* , Average Votes: {day.average_votes}, Total Votes: {day.total_votes}, Release Date: {day.released_on} */}
+        </ListGroup.Item>
+
       ))
     );
   }
