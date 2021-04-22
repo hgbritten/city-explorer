@@ -58,7 +58,8 @@ class App extends React.Component {
 
   getMovies = async () => {
     try {
-      const movieAPI = `${process.env.REACT_APP_BACKEND_URL}/movies`
+      const baseUrl = `https://city-explorer-api-hb.herokuapp.com`
+      const movieAPI = `${baseUrl}/movies`
       const query = {
         cityName: this.state.searchQuery,
       };
