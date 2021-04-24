@@ -43,7 +43,7 @@ class App extends React.Component {
   getWeather = async () => {
     try {
       // `https://city-explorer-api-hb.herokuapp.com`
-      const baseUrl = process.env.REACT_APP_BACKEND_URL
+      const baseUrl = `https://city-explorer-api-hb.herokuapp.com`
       const weatherAPI = `${baseUrl}/weather`
       const query = {
         lon: this.state.location.lon,
@@ -62,7 +62,7 @@ class App extends React.Component {
   getMovies = async () => {
     try {
       // `https://city-explorer-api-hb.herokuapp.com`
-      const baseUrl = process.env.REACT_APP_BACKEND_URL
+      const baseUrl = `https://city-explorer-api-hb.herokuapp.com`
       const movieAPI = `${baseUrl}/movies`
       const query = {
         cityName: this.state.searchQuery,
