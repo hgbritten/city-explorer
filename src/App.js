@@ -7,6 +7,8 @@ import Movie from './Movie.js';
 // import Form from 'react-bootstrap/Form';
 // import Container from 'react-bootstrap/Container';
 
+// `https://city-explorer-api-hb.herokuapp.com`
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -22,7 +24,7 @@ class App extends React.Component {
   getLocation = async (e) => {
     try {
       e.preventDefault();
-
+      // `https://city-explorer-api-hb.herokuapp.com`
       const API = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_CITY_KEY}&q=${this.state.searchQuery}&format=json`;
 
       const res = await axios.get(API);
@@ -40,7 +42,8 @@ class App extends React.Component {
 
   getWeather = async () => {
     try {
-      const baseUrl = `https://city-explorer-api-hb.herokuapp.com`
+      // `https://city-explorer-api-hb.herokuapp.com`
+      const baseUrl = process.env.REACT_APP_BACKEND_URL
       const weatherAPI = `${baseUrl}/weather`
       const query = {
         lon: this.state.location.lon,
@@ -58,7 +61,8 @@ class App extends React.Component {
 
   getMovies = async () => {
     try {
-      const baseUrl = `https://city-explorer-api-hb.herokuapp.com`
+      // `https://city-explorer-api-hb.herokuapp.com`
+      const baseUrl = process.env.REACT_APP_BACKEND_URL
       const movieAPI = `${baseUrl}/movies`
       const query = {
         cityName: this.state.searchQuery,
